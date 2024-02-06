@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://te.legra.ph/file/c4d4ea4416
 CODE = (environ.get('CODE', 'https://te.legra.ph/file/fcdd180561bf72c016dea.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'ziplinker.net'))
-STREAM_API = (environ.get('STREAM_API', 'ae0832f39e24094a0661626a792e6a2b8880e310'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkHP/69'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'vipurl.in'))
+STREAM_API = (environ.get('STREAM_API', '5e29bb763f82b9f3c80ecd38c2eb5440814cc05c'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+-N4S4Ng8g1JiZDI9'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -55,7 +55,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantlinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'cc4638231069183d342ed8bd1d524f53e775586b')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
